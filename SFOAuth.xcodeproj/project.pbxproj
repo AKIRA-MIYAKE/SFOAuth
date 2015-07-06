@@ -10,6 +10,17 @@
 		A6D90B831B4AC3EF00FA73E9 /* SFOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D90B821B4AC3EF00FA73E9 /* SFOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6D90B891B4AC3EF00FA73E9 /* SFOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D90B7D1B4AC3EF00FA73E9 /* SFOAuth.framework */; };
 		A6D90B901B4AC3EF00FA73E9 /* SFOAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D90B8F1B4AC3EF00FA73E9 /* SFOAuthTests.swift */; };
+		A6D90B9A1B4AC47F00FA73E9 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D90B991B4AC47F00FA73E9 /* Credential.swift */; };
+		A6D90B9C1B4AC4AD00FA73E9 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D90B9B1B4AC4AD00FA73E9 /* Scope.swift */; };
+		A6D90B9E1B4AC4C800FA73E9 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D90B9D1B4AC4C800FA73E9 /* Const.swift */; };
+		A6D90BA01B4AC4FA00FA73E9 /* CredentialStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D90B9F1B4AC4FA00FA73E9 /* CredentialStoreProtocol.swift */; };
+		A6F129601B4AD4700025B8AC /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1295F1B4AD4700025B8AC /* OAuth.swift */; };
+		A6F129661B4AD4840025B8AC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F129611B4AD4840025B8AC /* Alamofire.framework */; };
+		A6F129671B4AD4840025B8AC /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F129621B4AD4840025B8AC /* Box.framework */; };
+		A6F129681B4AD4840025B8AC /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F129631B4AD4840025B8AC /* OAuthSwift.framework */; };
+		A6F129691B4AD4840025B8AC /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F129641B4AD4840025B8AC /* Result.framework */; };
+		A6F1296A1B4AD4840025B8AC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F129651B4AD4840025B8AC /* SwiftyJSON.framework */; };
+		A6F1296C1B4AD4C30025B8AC /* DefaultCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1296B1B4AD4C30025B8AC /* DefaultCredentialStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		A6D90B881B4AC3EF00FA73E9 /* SFOAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFOAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D90B8E1B4AC3EF00FA73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6D90B8F1B4AC3EF00FA73E9 /* SFOAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFOAuthTests.swift; sourceTree = "<group>"; };
+		A6D90B991B4AC47F00FA73E9 /* Credential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		A6D90B9B1B4AC4AD00FA73E9 /* Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		A6D90B9D1B4AC4C800FA73E9 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A6D90B9F1B4AC4FA00FA73E9 /* CredentialStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialStoreProtocol.swift; sourceTree = "<group>"; };
+		A6F1295F1B4AD4700025B8AC /* OAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth.swift; sourceTree = "<group>"; };
+		A6F129611B4AD4840025B8AC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A6F129621B4AD4840025B8AC /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = Carthage/Build/iOS/Box.framework; sourceTree = "<group>"; };
+		A6F129631B4AD4840025B8AC /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
+		A6F129641B4AD4840025B8AC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		A6F129651B4AD4840025B8AC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		A6F1296B1B4AD4C30025B8AC /* DefaultCredentialStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCredentialStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F129661B4AD4840025B8AC /* Alamofire.framework in Frameworks */,
+				A6F129671B4AD4840025B8AC /* Box.framework in Frameworks */,
+				A6F129681B4AD4840025B8AC /* OAuthSwift.framework in Frameworks */,
+				A6F129691B4AD4840025B8AC /* Result.framework in Frameworks */,
+				A6F1296A1B4AD4840025B8AC /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +80,11 @@
 		A6D90B731B4AC3EE00FA73E9 = {
 			isa = PBXGroup;
 			children = (
+				A6F129611B4AD4840025B8AC /* Alamofire.framework */,
+				A6F129621B4AD4840025B8AC /* Box.framework */,
+				A6F129631B4AD4840025B8AC /* OAuthSwift.framework */,
+				A6F129641B4AD4840025B8AC /* Result.framework */,
+				A6F129651B4AD4840025B8AC /* SwiftyJSON.framework */,
 				A6D90B7F1B4AC3EF00FA73E9 /* SFOAuth */,
 				A6D90B8C1B4AC3EF00FA73E9 /* SFOAuthTests */,
 				A6D90B7E1B4AC3EF00FA73E9 /* Products */,
@@ -72,6 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				A6D90B821B4AC3EF00FA73E9 /* SFOAuth.h */,
+				A6D90B9D1B4AC4C800FA73E9 /* Const.swift */,
+				A6F1295F1B4AD4700025B8AC /* OAuth.swift */,
+				A6D90B991B4AC47F00FA73E9 /* Credential.swift */,
+				A6F1296B1B4AD4C30025B8AC /* DefaultCredentialStore.swift */,
+				A6D90B9F1B4AC4FA00FA73E9 /* CredentialStoreProtocol.swift */,
+				A6D90B9B1B4AC4AD00FA73E9 /* Scope.swift */,
 				A6D90B801B4AC3EF00FA73E9 /* Supporting Files */,
 			);
 			path = SFOAuth;
@@ -209,6 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D90B9C1B4AC4AD00FA73E9 /* Scope.swift in Sources */,
+				A6D90B9A1B4AC47F00FA73E9 /* Credential.swift in Sources */,
+				A6D90BA01B4AC4FA00FA73E9 /* CredentialStoreProtocol.swift in Sources */,
+				A6D90B9E1B4AC4C800FA73E9 /* Const.swift in Sources */,
+				A6F1296C1B4AD4C30025B8AC /* DefaultCredentialStore.swift in Sources */,
+				A6F129601B4AD4700025B8AC /* OAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,27 +367,40 @@
 		A6D90B941B4AC3EF00FA73E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SFOAuth/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A6D90B951B4AC3EF00FA73E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SFOAuth/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -399,6 +456,7 @@
 				A6D90B951B4AC3EF00FA73E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6D90B961B4AC3EF00FA73E9 /* Build configuration list for PBXNativeTarget "SFOAuthTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +465,7 @@
 				A6D90B981B4AC3EF00FA73E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
