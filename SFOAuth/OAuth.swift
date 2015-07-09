@@ -103,12 +103,11 @@ public class OAuth {
                             let json = JSON(data)
                             
                             if let accessToken = json[Credential.accessTokenKey].string,
-                                let refreshToekn = json[Credential.refreshTokenKey].string,
                                 let instanceURL = json[Credential.instanceURLKey].string
                             {
                                 let newCredential = Credential(
                                     accessToken: accessToken,
-                                    refreshToken: refreshToekn,
+                                    refreshToken: credential.refreshToken,
                                     instanceURL: instanceURL)
                                 
                                 self.credentialStore.credential = newCredential
